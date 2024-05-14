@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: azure;
+  box-shadow: 1px 3px 26px -11px rgba(0, 0, 0, 0.75);
+}
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  text-decoration: none;
+  color: hotpink;
+  padding: 10px;
+  transition: 0.5s;
+  margin: 0 10px;
+}
+.nav-link {
+  background-color: hotpink;
+  color: azure;
+}
+.hero-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-image h1 {
+  position: absolute;
+  color: rgb(252, 252, 252);
+  background-color: rgba(137, 9, 52, 0.875);
+}
+.hero-image img {
+  height: 500px;
+  width: 2000px;
+}
